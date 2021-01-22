@@ -1,0 +1,24 @@
+{
+  "name": "vdauchy/laravel-debugbar-view-meter",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4",
+    "barryvdh/laravel-debugbar": "*",
+    "illuminate/support": "*",
+    "illuminate/view": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "VDauchy\\ViewMeter\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "VDauchy\\ViewMeter\\ServiceProvider"
+      ]
+    }
+  }
+}
