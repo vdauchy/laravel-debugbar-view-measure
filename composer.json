@@ -2,7 +2,7 @@
   "name": "vdauchy/laravel-debugbar-view-meter",
   "license": "MIT",
   "require": {
-    "php": "^7.4",
+    "php": "^7.4|^8.0",
     "barryvdh/laravel-debugbar": "*",
     "illuminate/support": "*",
     "illuminate/view": "*"
